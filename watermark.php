@@ -338,7 +338,7 @@ RewriteRule [0-9/]+/[0-9]+\\.jpg$ - [F]
         }
         $html .= $this->renderForm();
         $this->context->controller->addCSS(__DIR__ . '/views/css/module-addons-suggestion.css');
-        $html .= $this->renderAddonsSuggestion();
+       //$html .= $this->renderAddonsSuggestion();
 
         return $html;
     }
